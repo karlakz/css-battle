@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    background-color: #62374e;
+  }
+div {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background: #fdc57b;
+}
+
+.top-right, .bottom-right {
+    right: 3rem;
+}
+
+.top-left, .top-right {
+    top: 3rem;
+}
+
+.bottom-right, .bottom-left {
+    bottom: 3rem;
+}
+
+.bottom-left, .top-left {
+    left: 3rem
+}
