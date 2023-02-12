@@ -1,0 +1,43 @@
+:root {
+    --lightblue: #6592CF;
+    --purple: #243D83;
+    --yellow: #EEB850;
+}
+
+body {
+    margin: 0;
+    background: var(--lightblue);
+  }  
+.square {
+    width: 300px;
+    height: 150px;
+    background: var(--purple);
+    margin: 75px auto;
+    position: relative;
+}
+
+.square__second, .square__third, .square__inner {
+    border-radius: 50%;
+    position: absolute;
+}
+  .square__second {
+    width: 84%;
+    height: 142%;
+    top: -20%;
+    left: 7%;
+    background: var(--lightblue);
+}
+.square__third {
+    width: 56%;
+    height: 70%;
+    top: 14%;
+    left: 24%;
+    background: var(--purple);
+}
+.square__inner {
+    width: 36%;
+    height: 34%;
+    background: var(--yellow);
+    top: 32%;
+    left: 33%
+}
